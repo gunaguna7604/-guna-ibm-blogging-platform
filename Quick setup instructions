@@ -1,0 +1,13 @@
+1. Create the folders  backend  and  frontend  and paste each file above in the correct path.
+2. Backend: in  backend folder run:
+3.  npm install 
+4. copy  .env .example  to  .env  and set  JWT_SECRET  (or use default in dev)
+5.  npm  run  seed to create database and seed users/posts
+6.  npm start to run server on port 5000
+7. Frontend: in  frontend folder run:
+8.  npm install
+9.  npm start  (creates React dev server on port 3000)
+10. Open  http://localhost:3000  and test the app. Use seeded accounts:
+
+11. Admin:  admin@example.com / AdminPass123
+12. User:  user@example.com /  Password123
