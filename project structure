@@ -1,0 +1,30 @@
+
+blogging-platform/
+卜──  backend/
+│     卜──  package.json │     卜──  .env .example │     卜──    index.js
+│     卜──  models.js
+│       卜──  routes/
+│     │     卜──    auth.js │     │     卜──    posts.js
+│     │     L──  comments.js
+│     卜── middleware/auth.js │     L──  seed.js
+L── frontend/
+卜── package.json
+卜── public/index.html L──  src/
+ 
+卜──
+卜──
+卜──
+卜──
+│
+│
+│
+│
+L──
+ 
+
+index.js
+App.js
+api.js
+components/
+卜── Header.js  卜── PostList.js
+卜── PostView.js L── NewPost.js styles.css
